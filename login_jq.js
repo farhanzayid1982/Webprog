@@ -11,9 +11,11 @@ $(document).ready(function(){
       },
       function(data,status){
           //alert("Data: " + data + "\nStatus: " + status);
-          alert("Login " + data);
+          //alert("Login " + data);
           if(data=="SUKSES") {
             window.open("view.php", "_SELF");
+          } else {
+            alert("Login " + data + "\nStatus: " + status);
           }
       });
     });
