@@ -8,7 +8,7 @@
     <script src="login_jq.js"></script>
 </head>
 <body>
-    <label  accesskey="U" for="txtUser_id"><u>U</u>ser ID</label>
+    <label for="txtUser_id" accesskey="U"><u>U</u>ser ID</label>
     <input type="text" id="txtUser_id">
     <label accesskey="P" for="txtPass"><u>P</u>assword</label>
     <input type="password" id="txtPass">
